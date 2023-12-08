@@ -5,7 +5,7 @@
 // variable to remain constant. Also, rename variables declared with const
 // to conform to common practices. Do not change the strings assigned to the variables.
 
-const fCC = "freeCodeCamp"; // Change this line
+const FCC = "freeCodeCamp"; // Change this line
 let fact = "is cool!"; // Change this line
 fact = "is awesome!";
-console.log(fCC, fact); // Change this line
+console.log(FCC, fact); // Change this line
