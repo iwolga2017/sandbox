@@ -35,6 +35,10 @@ hr {
   font-style: italic;
 }
 
+.bottom-line {
+  margin-top: 25px;
+}
+
 h1, h2 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
