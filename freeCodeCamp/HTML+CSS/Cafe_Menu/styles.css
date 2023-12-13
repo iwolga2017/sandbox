@@ -15,6 +15,10 @@ body {
     max-width: 500px;
 }
 
+.established {
+  font-style: italic;
+}
+
 h1, h2 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
