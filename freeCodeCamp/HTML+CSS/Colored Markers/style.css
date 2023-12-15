@@ -5,6 +5,18 @@ h1 {
 .marker {
     height: 25px;
     width: 200px;
-    background-color: red;
     margin: 10px auto;
 }
+
+.one {
+    background-color: red;
+}
+
+.two {
+    background-color: green;
+}
+
+.three {
+    background-color: blue;
+}
+ 
