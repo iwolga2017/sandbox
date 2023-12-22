@@ -19,6 +19,10 @@ form {
     min-width: 300px;
     width: 60vw;
 }
+fieldset {
+    border: none;
+    padding: 2rem 0;
+}
 
 label {
     display: block;
