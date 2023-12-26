@@ -43,7 +43,7 @@
                         Weak, disorders and diseases in various organs and systems
                         <input type="radio" id="weak" name="health" value="weak">
                     </label>
-                    <label for="moderate">Moderately healthy, there are sluggish chronic diseases</label>
+                    <label for="moderate" id="moderate-label">Moderately healthy, there are sluggish chronic diseases</label>
                     <input type="radio" id="moderate" name="health" value="moderate">
                     <label for="helthy" id="helthy-label">
                         Healthy, sometimes suffered from viral diseases
@@ -51,7 +51,21 @@
                     </label>
                 </fieldset>
 
-                <fieldset class="form-section"></fieldset>
+                <fieldset class="form-section">
+                    <legend>How did you know about our Clinic?</legend>
+                    <label for="social" id="social-label">Social media
+                        <input type="checkbox" name="sources" value="social_media" checked>
+                    </label>
+                    <label for="radio" id="radio-label">Radio
+                        <input type="checkbox" id="radio" name="sources" value="radio">
+                    </label>
+                    <label for="recommend" id="recommend-label">Friends recommendation
+                        <input type="checkbox" name="sources" id="recommend" value="recommendation">
+                    </label>
+                    <label for="other" id="other-label">Other sources
+                        <input type="checkbox" name="sources" id="other" value="other">
+                    </label>
+                </fieldset>
 
                 <fieldset class="form-section"></fieldset>
 
