@@ -10,7 +10,7 @@
 <body>
     <div class="container">
         <h1 id="title">Making an appoitment with a homeopath</h1>
-            <p class="description">All information about your heals will be strictly confidential!</p>
+            <p class="description">All information about your health will be strictly confidential!</p>
 
             <form action="#" id="survey-form">
                 <fieldset class="form-section">
@@ -37,7 +37,19 @@
                     </label>
                 </fieldset>
 
-                <fieldset class="form-section"></fieldset>
+                <fieldset class="form-section">
+                    <legend>How would you determine the extent of your health condition?</legend>
+                    <label for="weak" id="weak-label">
+                        Weak, disorders and diseases in various organs and systems
+                        <input type="radio" id="weak" name="health" value="weak">
+                    </label>
+                    <label for="moderate">Moderately healthy, there are sluggish chronic diseases</label>
+                    <input type="radio" id="moderate" name="health" value="moderate">
+                    <label for="helthy" id="helthy-label">
+                        Healthy, sometimes suffered from viral diseases
+                        <input type="radio" id="helthy" name="health" value="healthy" checked>
+                    </label>
+                </fieldset>
 
                 <fieldset class="form-section"></fieldset>
 
