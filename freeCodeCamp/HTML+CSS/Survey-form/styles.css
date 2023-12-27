@@ -32,7 +32,7 @@ font-size: 2em;
 
 #survey-form {
     background:rgba(20, 129, 40, 0.7);
-    width: 70vw;
+    width: 80vw;
     margin: 0 auto;
     border-radius: 10px;
     min-width: 500px;
@@ -53,7 +53,7 @@ legend, #dropdown-label, #symptoms-label {
 label {
     display: block;
     margin: 0.5rem 0;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 input, textarea, select {
@@ -61,4 +61,16 @@ input, textarea, select {
     border-radius: 5px;
     min-height: 2rem;
     margin-top: 10px;
+}
+
+.radio-label {
+    display: inline-block;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    display: inline-block;
+    width: 18px;
+    margin: 0;
+    vertical-align: middle;
+     
 }

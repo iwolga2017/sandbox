@@ -39,15 +39,17 @@
 
                 <fieldset class="form-section">
                     <legend>How would you determine the extent of your health condition?</legend>
-                    <label for="weak" id="weak-label">
+                    <input type="radio" id="weak" name="health" value="weak">
+                    <label for="weak" class="radio-label" id="weak-label">
                         Weak, disorders and diseases in various organs and systems
-                        <input type="radio" id="weak" name="health" value="weak">
                     </label>
-                    <label for="moderate" id="moderate-label">Moderately healthy, there are sluggish chronic diseases</label>
+                    <br>
                     <input type="radio" id="moderate" name="health" value="moderate">
-                    <label for="helthy" id="helthy-label">
+                    <label for="moderate" class="radio-label" id="moderate-label"> Moderately healthy, there are sluggish chronic diseases</label>
+                    <br>
+                    <input type="radio" id="helthy" name="health" value="healthy" checked>
+                    <label for="helthy" class="radio-label" id="helthy-label">
                         Healthy, sometimes suffered from viral diseases
-                        <input type="radio" id="helthy" name="health" value="healthy" checked>
                     </label>
                 </fieldset>
 
