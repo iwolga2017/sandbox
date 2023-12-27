@@ -10,9 +10,9 @@
 <body>
     <div class="container">
         <h1 id="title">Making an appoitment with a homeopath</h1>
-            <p class="description">All information about your health will be strictly confidential!</p>
+            <p id="description">All information about your health will be strictly confidential!</p>
 
-            <form action="#" id="survey-form">
+            <form method="post"  action="#" id="survey-form">
                 <fieldset class="form-section">
                     <label for="name" id="name-label">Name
                         <input type="text" id="name" name="name" placeholder="Enter your name" required>
@@ -21,7 +21,7 @@
                         <input type="email" id="email" name="email" placeholder="Enter your email" required>
                     </label>
                     <label for="number" id="number-label">Age
-                        <input type="number" id="number" name="age" placeholder="Enter your age" required>
+                        <input type="number" id="number" name="age" placeholder="Enter your age" min="18" max="100"  required>
                     </label>
                 </fieldset>
 
