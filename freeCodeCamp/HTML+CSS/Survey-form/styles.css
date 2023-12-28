@@ -64,6 +64,10 @@ input, textarea, select {
     margin-top: 10px;
 }
 
+::placeholder {
+    font-size: 16px;
+}
+
 .radio-label {
     display: inline-block;
 }
