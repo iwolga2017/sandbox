@@ -62,10 +62,15 @@ input, textarea, select {
     border-radius: 5px;
     min-height: 2rem;
     margin-top: 10px;
+    border: 3px solid #006603;
 }
 
 ::placeholder {
     font-size: 16px;
+}
+
+textarea::placeholder {
+    color: #0066039b;
 }
 
 .radio-label {
