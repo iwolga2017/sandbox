@@ -73,12 +73,12 @@ textarea::placeholder {
     color: #0066039b;
 }
 
-.radio-label {
-    display: inline-block;
+.radio-label, .checkbox-label {
+    display: inline;
 }
 
 input[type="radio"], input[type="checkbox"] {
-    display: inline-block;
+    display: inline;
     width: 18px;
     margin: 0;
     vertical-align: middle;
