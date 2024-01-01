@@ -23,6 +23,7 @@ body {
     max-width: 350px;
     /* maintaining aspect ratio to img */
     object-fit: cover; 
+    border-radius: 10px;
 }
 
 .gallery {
