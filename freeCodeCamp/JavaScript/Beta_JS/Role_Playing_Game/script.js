@@ -25,6 +25,10 @@ button1.onclick = goStore();
 button2.onclick = goCave();
 button3.onclick = fightDragon();
 
+function goTown() {
+
+};
+
 function goStore() {
 
     button1.innerText = "Buy 10 health (10 gold)";
@@ -42,6 +46,16 @@ function goCave() {
 };
 
 function fightDragon() {
-    
+
     console.log("Fighting dragon.");
 };   
+
+function buyHealth() {
+
+};
+
+function buyWeapon() {
+
+};
+
+
