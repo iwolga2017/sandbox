@@ -17,7 +17,18 @@ h1 {
     font-size: min(5vw, 1.2em);
 }
 
+h1, h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
 nav > ul  {
     display: flex;
     justify-content: space-evenly;
 }
+
+h2 {
+
+    border-bottom: 4px solid #dfdfe2;
+}
+
+
