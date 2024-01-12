@@ -58,6 +58,12 @@ li > a {
     text-decoration: none;
 }
 
+section {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto 10px;
+}
+
 h2 {
 
     border-bottom: 4px solid #dfdfe2;
