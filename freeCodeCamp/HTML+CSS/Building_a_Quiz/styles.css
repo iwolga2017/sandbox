@@ -9,6 +9,10 @@ header {
     align-items: center;
 }
 
+main {
+    padding-top: 60px;
+}
+
 #logo {
     width: max(100px, 18vw);
     background-color: #0a0a23;
@@ -19,6 +23,7 @@ header {
 h1 {
     color: #f1be32;
     font-size: min(5vw, 1.2em);
+    text-align: center;
 }
 
 h1, h2 {
