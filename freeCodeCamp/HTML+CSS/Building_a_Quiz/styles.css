@@ -70,6 +70,10 @@ h2 {
     border-bottom: 4px solid #dfdfe2;
 }
 
+.info {
+    padding: 10px 0 0 5px;
+}
+
 .sr-only {
     position: absolute; 
     width: 1px;
