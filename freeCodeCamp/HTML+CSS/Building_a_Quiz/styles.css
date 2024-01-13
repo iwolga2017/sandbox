@@ -74,6 +74,25 @@ h2 {
     padding: 10px 0 0 5px;
 }
 
+
+.formrow {
+    margin-top: 30px;
+    padding: 0 15px;
+}
+
+input {
+    font-size: 16px;
+}
+
+.info input {
+    width: 50%;
+    text-align: left;
+}
+
+p::before {
+    content: "Question #";
+}
+
 .sr-only {
     position: absolute; 
     width: 1px;
@@ -84,19 +103,6 @@ h2 {
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
     border: 0;
-}
-
-p::before {
-    content: "Question #";
-}
-
-.formrow {
-    margin-top: 30px;
-    padding: 0 15px;
-}
-
-input {
-    font-size: 16px;
 }
 
 
