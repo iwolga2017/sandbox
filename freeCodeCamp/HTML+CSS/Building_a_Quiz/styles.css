@@ -90,4 +90,13 @@ p::before {
     content: "Question #";
 }
 
+.formrow {
+    margin-top: 30px;
+    padding: 0 15px;
+}
+
+input {
+    font-size: 16px;
+}
+
 
