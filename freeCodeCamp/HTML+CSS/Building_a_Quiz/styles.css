@@ -141,4 +141,14 @@ p::before {
     border: 0;
 }
 
+input[type="submit"] {
+    display: block;
+    margin: 40px auto;
+    width: 40%;
+    padding: 15px;
+    font-size: 23px;
+    background-color: #d0d0d5;
+    border: 3px solid #3b3b4f;
+}
+
 
