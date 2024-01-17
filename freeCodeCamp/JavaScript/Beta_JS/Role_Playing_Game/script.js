@@ -126,6 +126,8 @@ function sellWeapon() {
 
 function fightSlime() {
 
+  fighting = 0; // index of "slime" in monsters[]
+  goFight();
 }
 
 function fightBeast() {
