@@ -132,10 +132,14 @@ function fightSlime() {
 
 function fightBeast() {
 
+  fighting = 1; // index of "beast" in monsters[]
+  goFight();
 }
 
 function fightDragon() {
-  console.log("Fighting dragon.");
+  
+  fighting = 2; // index of "dragon" in monsters[]
+  goFight();
 }
 
 function goFight() {
