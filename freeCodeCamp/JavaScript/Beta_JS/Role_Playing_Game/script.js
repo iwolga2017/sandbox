@@ -121,7 +121,15 @@ function buyWeapon() {
 }
 
 function sellWeapon() {
-  
+
+  if (inventory.length > 1) {
+    gold += 15;
+    goldText.innerText = gold;
+    let currentWeapon = inventory.shift(); // локальная переменная
+    text.innerText = "You sold a " + currentWeapon + ".";
+    text.innerText += " In your inventory you have: " + inventory;
+  }
+
 }
 
 function fightSlime() {
