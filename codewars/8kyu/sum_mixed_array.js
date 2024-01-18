@@ -1,0 +1,26 @@
+// Given an array of integers as strings and numbers, 
+// return the sum of the array values as if all were numbers.
+
+// Return your answer as a number.
+
+
+
+let x = [9, 3, '7', '3'];
+
+function sumMix(x){
+  
+    let sum = 0;
+  
+    for (let item of x) {
+      
+      if (typeof item == "string") {
+        item = +item;
+      }
+      sum += item;
+    }
+          
+    return sum;
+    
+  }
+
+  console.log(sumMix(x));
