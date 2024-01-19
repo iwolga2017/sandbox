@@ -55,3 +55,10 @@ p {
     padding: 15px;
 }
 
+h2 {
+    width: 100%;
+    margin: 60px auto;
+    text-align: center;
+    font-size: 1.5em;
+}
+
