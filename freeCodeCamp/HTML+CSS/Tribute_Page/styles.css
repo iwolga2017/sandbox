@@ -85,3 +85,17 @@ cite {
     text-align: right;
     display: block;
 }
+
+.bottom {
+    text-align: center;
+    font-weight: bold;
+}
+
+#target-link {
+    text-decoration: none;
+    color: rgb(77, 14, 135);
+}
+
+#target-link:hover {
+    opacity: 0.75;
+}
