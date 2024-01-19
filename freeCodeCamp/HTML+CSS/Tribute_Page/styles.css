@@ -35,15 +35,16 @@ p {
 
 #img-div {
     background-color:#fff;
-}
-
-#img {
-    width: 80%;
-    max-width: 700px;
-    min-width: 600px;
-    height: 75vh;
-    margin: 0px auto;
     padding: 15px;
+    margin: 0;
+
+}
+/* центрируем img внутри родителя */
+#img {
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding: 30px;
     display: block;
 }
 
