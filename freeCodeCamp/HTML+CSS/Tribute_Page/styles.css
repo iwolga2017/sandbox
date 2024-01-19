@@ -76,7 +76,7 @@ blockquote {
     font-style: italic;
 }
 
-p {
+blockquote > p {
     text-align: left;
 }
 
