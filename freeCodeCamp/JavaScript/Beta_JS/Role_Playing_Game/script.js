@@ -131,19 +131,16 @@ function sellWeapon() {
 }
 
 function fightSlime() {
-
   fighting = 0; // index of "slime" in monsters[]
   goFight();
 }
 
 function fightBeast() {
-
   fighting = 1; // index of "beast" in monsters[]
   goFight();
 }
 
 function fightDragon() {
-  
   fighting = 2; // index of "dragon" in monsters[]
   goFight();
 }
@@ -157,7 +154,6 @@ function goFight() {
 }
 
 function attack() {
-
   text.innerText = "The " + monsters[fighting].name + " attacks.";
   text.innerText += " You attack it with your " + weapons[currentWeapon].name + ".";
   health -= monsters[fighting].level;
@@ -173,7 +169,7 @@ function attack() {
 }
 
 function dodge() {
-
+  text.innerText = "You dodge the attack from the " +  monsters[fighting].name;
 }
 
 function defeatMonster() {
@@ -181,5 +177,5 @@ function defeatMonster() {
 }
 
 function lose() {
-  
+
 }
