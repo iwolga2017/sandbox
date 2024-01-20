@@ -24,7 +24,7 @@ const weapons = [
     { name: "sword", power: 100 }
   ];
 
-  const monsters = [
+const monsters = [
     { name: "slime", level: 2, health: 15 },
     { name: "fanged beast", level: 8, health: 60 },
     { name: "dragon", level: 20, health: 300 }
@@ -158,6 +158,18 @@ function goFight() {
 
 function attack() {
 
+  text.innerText = "The " + monsters[fighting].name + " attacks.";
+  text.innerText += " You attack it with your " + weapons[currentWeapon].name + ".";
+  health -= monsters[fighting].level;
+  monsterHealth -= weapons[currentWeapon].power + Math.floor(Math.random() * xp);
+  healthText.innerText = health;
+  monsterHealthText.innerText = monsterHealth;
+
+  if (health <= 0) {
+    lose();
+  } else if (monsterHealth <= 0) {
+    defeatMonster();
+  }
 }
 
 function dodge() {
