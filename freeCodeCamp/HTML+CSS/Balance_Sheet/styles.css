@@ -6,3 +6,21 @@ body {
     font-family: sans-serif;
     color: #0a0a23;
 }
+
+span[class~="sr-only"] {  
+/* any span whose class includes sr-only  */
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+/* clip and clip-path hidden span */
+    width: 1px;
+    height: 1px;
+/* sized these elements down  */
+    overflow: hidden;
+    white-space: nowrap;
+/* prevent the text contet from overfloving */
+    position: absolute;
+    padding: 0;
+    margin: -1px;
+/* take these hidden elements out of the document flow */
+}
