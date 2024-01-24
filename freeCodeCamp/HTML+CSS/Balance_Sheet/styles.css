@@ -62,3 +62,11 @@ section {
     padding: 0.5rem calc(1.25rem + 2px) 0.5rem 0;
     z-index: 999;
 }
+
+#years span[class] { 
+    /* выберет все элементы span в #years 
+    у которых есть аттрибут class, не зависимо от его значения!!!! */
+    font-weight: bold;
+    width: 4.5rem;
+    text-align: right;
+ }
