@@ -267,6 +267,9 @@ function pick(guess) {
     health -= 10;
     healthText.innerText = health;
   }
+  if (health <= 0 ) {
+    lose();
+  }
 }
 
 function pickTwo() {
