@@ -1,18 +1,18 @@
 span[class~="sr-only"] {  
     /* any span whose class includes sr-only  */
-        border: 0;
-        clip: rect(1px, 1px, 1px, 1px);
-        clip-path: inset(50%);
+        border: 0  !important;
+        clip: rect(1px, 1px, 1px, 1px) !important;
+        clip-path: inset(50%) !important;
     /* clip and clip-path hidden span */
-        width: 1px;
-        height: 1px;
+        width: 1px !important;
+        height: 1px !important;
     /* sized these elements down  */
-        overflow: hidden;
-        white-space: nowrap;
+        overflow: hidden !important;
+        white-space: nowrap !important;
     /* prevent the text contet from overfloving */
-        position: absolute;
-        padding: 0;
-        margin: -1px;
+        position: absolute !important;
+        padding: 0 !important;
+        margin: -1px !important;
     /* take these hidden elements out of the document flow */
     }
 
@@ -75,6 +75,6 @@ section {
     padding: 0 0.75rem 1.5rem 0.75rem;
  }
 
- span:not(.sr-only) {
+ span {
     font-weight: normal;
  }
