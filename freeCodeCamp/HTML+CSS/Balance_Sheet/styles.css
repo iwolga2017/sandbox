@@ -133,3 +133,7 @@ section {
  td[class="current"] {
     font-style: italic;
  }
+ 
+ tr[class="data"] {
+    background: linear-gradient(to bottom, #dfdfe2 1.845rem, white 1.845rem);
+ }
