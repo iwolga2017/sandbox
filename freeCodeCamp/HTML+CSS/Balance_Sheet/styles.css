@@ -78,3 +78,11 @@ section {
  span {
     font-weight: normal;
  }
+
+ table {
+    border-collapse: collapse;
+    border: 0;
+    width: 100%;
+    position: relative;
+    margin-top: 3rem;
+ }
