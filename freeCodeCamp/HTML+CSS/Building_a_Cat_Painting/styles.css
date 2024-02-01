@@ -192,3 +192,10 @@ body {
     transform: rotate(-10deg);
  }
 
+ .cat-whisker-right-middle {
+    position: absolute;
+    top: 127px;
+    left: 109px;
+    transform: rotate(-3deg);
+ }
+
