@@ -21,6 +21,8 @@ html{
     height: 180px;
     background-color: #040404;
     padding-left: 2px;
+    overflow: hidden; 
+    /* to hide overflow in media also */
 }
 
 .key {
