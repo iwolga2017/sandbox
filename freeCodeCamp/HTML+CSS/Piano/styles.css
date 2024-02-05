@@ -29,3 +29,12 @@ html{
     margin: 2px;
     float: left;
 }
+
+.key.black--key::after {
+    content: "";
+    width: 32px;
+    height: 100px;
+    background-color: #1d1e22;
+    position: absolute;
+    left: -18px;
+}
