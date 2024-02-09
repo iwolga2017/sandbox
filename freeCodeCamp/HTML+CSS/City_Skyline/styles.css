@@ -37,21 +37,16 @@ body {
 }
 
 .bb1a {
-    width: 70%; 
-    background-color: var(--building-color1);  
+    width: 70%;   
 }
 
 .bb1b {
     width: 80%;
-    background-color: var(--building-color1);
-    
 }
 
 .bb1c {
     width: 90%;
-    background-color: var(--building-color1);
-    
-    }
+}
 
 .bb1d {
     width: 100%;
