@@ -25,7 +25,7 @@ body {
     height: 100%;
 }
 }
-/* Background styles */
+/* BACKGROUND BUILDINGS - "bb" stands for "background building" */
 
 .bb1 {
     width: 10%;
@@ -77,7 +77,7 @@ body {
     height: 58%;
 }
 
-/* Foreground styles */
+/* FOREGROUND BUILDINGS - "fb" stands for "foreground building" */
 
 .fb1 {
     width: 10%;
