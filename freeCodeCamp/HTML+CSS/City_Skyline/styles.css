@@ -108,6 +108,12 @@ body {
     height: 58%;
 }
 
+.bb4-window {
+    width: 18%;
+    height: 90%;
+    background-color: var(--window-color4);
+}
+
 .bb4a {
     width: 3%;
     height: 10%;
