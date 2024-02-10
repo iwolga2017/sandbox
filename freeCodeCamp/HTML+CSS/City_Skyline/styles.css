@@ -65,6 +65,20 @@ body {
     height: 50%;
 }
 
+.bb2a {
+    /* margin: auto;
+    width: 5vw;
+    height: 5vw; 
+    border-top: 1vw solid #000; */
+    /* removed all above to make a triangle */
+    border-bottom: 5vh solid var(--building-color2); 
+    /* changed bor bottom  1wv to 5vh */
+    border-left: 5vw solid transparent;
+    border-right: 5vw solid transparent; 
+    /* changed left and right borders to 5vw, 
+    #999 to transparent */
+}
+
 .bb2b {
     width: 100%;
     height: 100%;
