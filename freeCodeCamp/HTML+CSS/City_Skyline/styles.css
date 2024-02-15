@@ -253,7 +253,18 @@ body {
     right: 10%;
     width: 10%;
     height: 33%;
-    background-color: var(--building-color2);
+    background: repeating-linear-gradient(
+        var(--building-color2),
+        var(--building-color2)5%,
+        transparent 5%,
+        transparent 10%
+    ), repeating-linear-gradient(
+        90deg,
+        var(--building-color2),
+        var(--building-color2)12%,
+        var(--window-color2)12%,
+        var(--window-color2)44%
+    );
 }
 .fb6 {
     width: 9%;
