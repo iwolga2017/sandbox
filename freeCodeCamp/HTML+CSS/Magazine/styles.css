@@ -8,3 +8,9 @@ html {
     font-size: 62.5%; 
     /* equal 10px, browser default 16px */
 }
+
+body {
+    font-family: Baskervville, serif;
+    color: linen;
+    background-color: rgb(20, 30, 40);
+}
