@@ -35,9 +35,11 @@ main {
 }
 
 .heading {
+    grid-column: 2/3;
+    /* grid-column used for grid item */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-column: 2/3;
+    row-gap: 1.5rem;
 }
 
 .text {
