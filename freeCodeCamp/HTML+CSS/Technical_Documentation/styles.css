@@ -35,3 +35,9 @@ h1 {
     list-style: none;
     padding: 0 40px;
 }
+
+.nav-list__item {
+    font-size: 1.4rem;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
