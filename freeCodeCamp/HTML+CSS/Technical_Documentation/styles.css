@@ -55,3 +55,10 @@ h1 {
 .nav-link:visited {
     color: rgb(49, 42, 37);
 }
+
+#main-doc {
+    max-width: 700px;
+    position: absolute;
+    top: 0;
+    left: 400px;
+}
