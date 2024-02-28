@@ -10,9 +10,7 @@ html {
 }
 
 body {
-    width: 100%;
-    margin: 20px auto;
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 8rem;
+    min-width: 350px;
+    background-color: rgb(245, 234, 220);
+    line-height: 2;
 }
