@@ -41,3 +41,8 @@ h1 {
     line-height: 1.2;
     margin-bottom: 30px;
 }
+
+.nav-link {
+    text-decoration: none;
+    color: antiquewhite;
+}
