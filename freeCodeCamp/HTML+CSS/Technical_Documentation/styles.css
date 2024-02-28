@@ -26,3 +26,7 @@ body {
     color: rgb(255 255 255);
     border-right: 2px solid rgb(92, 69, 45);
 }
+
+h1 {
+    padding: 30px;
+}
