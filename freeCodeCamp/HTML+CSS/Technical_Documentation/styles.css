@@ -46,3 +46,12 @@ h1 {
     text-decoration: none;
     color: antiquewhite;
 }
+
+.nav-link:hover {
+    background-color:rgba(18, 18, 5, 0.186);
+    opacity: 0.75;
+}
+
+.nav-link:visited {
+    color: rgb(49, 42, 37);
+}
