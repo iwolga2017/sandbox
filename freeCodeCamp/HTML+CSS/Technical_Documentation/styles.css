@@ -14,3 +14,15 @@ body {
     background-color: rgb(245, 234, 220);
     line-height: 2;
 }
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 320px;
+    height: 100vh;
+    background: linear-gradient(rgb(227, 166, 100),
+    rgb(92, 69, 45));
+    color: rgb(255 255 255);
+    border-right: 2px solid rgb(92, 69, 45);
+}
