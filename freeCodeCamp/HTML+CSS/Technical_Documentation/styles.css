@@ -30,3 +30,8 @@ body {
 h1 {
     padding: 30px;
 }
+
+.nav-list {
+    list-style: none;
+    padding: 0 40px;
+}
