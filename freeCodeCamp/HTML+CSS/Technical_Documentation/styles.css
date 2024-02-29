@@ -86,3 +86,15 @@ blockquote::before {
 blockquote::after {
     content: '»';
 }
+
+.code-wrapper {
+    border: 2px solid rgba(236, 213, 188, 0.75);
+    border-radius: 5px;
+    background-color: rgb(237, 228, 217);
+}
+
+pre > code {
+   position: relative;
+   top: 10px;
+   left: -200px;
+}
