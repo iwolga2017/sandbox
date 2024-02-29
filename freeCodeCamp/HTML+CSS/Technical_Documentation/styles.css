@@ -27,7 +27,12 @@ body {
     border-right: 2px solid rgb(92, 69, 45);
 }
 
+header {
+    font-size: 2rem;
+}
+
 h1 {
+    font-size: 1.5rem;
     padding: 30px;
 }
 
@@ -60,5 +65,5 @@ h1 {
     max-width: 700px;
     position: absolute;
     top: 0;
-    left: 400px;
+    left: 500px;
 }
