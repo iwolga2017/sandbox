@@ -204,13 +204,15 @@
                             1   // "Named Class Expression"
                             2      let User = class MyClass {
                             3       sayHi() {
-                            4         alert(MyClass); // we can see name MyClass 5      only inside the class
+                            4         alert(MyClass); // we can see name MyClass 
+                            5           only inside the class
                             6       }
                             7     };
                             8  
                             9     new User().sayHi(); // prints the definition MyClass
                             10  
-                            11    alert(MyClass); // error, name MyClass is not visible outside the class
+                            11    alert(MyClass); // error, name MyClass is not visible 
+                            12    outside the class
                         </code>
                     </pre>
                 </div>
