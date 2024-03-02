@@ -97,6 +97,19 @@
                     In JavaScript, a class is a type of function.
                 </p>
                 <p>Take a look:</p>
+                <div class="code-wrapper">
+                    <pre>
+                        <code>
+                            1       class User {
+                            2           constructor(name) { this.name = name; }
+                            3           sayHi() { alert(this.name); }
+                            4         }
+                            5
+                            6         // proof: User - is a function
+                            7         alert(typeof User); // function
+                        </code>
+                    </pre>
+                </div>
                 <p>Here's what the construct actually does class User {...}:</p>
                 <ol class="content_list">
                     <li>
