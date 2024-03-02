@@ -318,7 +318,31 @@
         <section class="main-section" id="Class_Properties">
             <header>Class Properties</header>
             <article>
-                <p></p>
+                <p>
+                    Older browsers may need a polyfill. Class properties were recently added to the language.
+                </p>
+                <p>
+                    In the example above, the class User only had methods. Let's add a property:
+                </p>
+                <div class="code-wrapper">
+                    <pre>
+                        <code>
+                            1       class User {
+                            2           name = "Anonymous";
+                            3  
+                            4           sayHi() {
+                            5             alert(`Hi, ${this.name}!`);
+                            6           }
+                            7         }
+                            8  
+                            9         new User().sayHi();
+                        </code>
+                    </pre>
+                </div>
+                <p>
+                    The property name is not set to User.prototype. Instead, it is created by the operator new before
+                    running the constructor; it is precisely a property of the object.
+                </p>
             </article>
         </section>
 
