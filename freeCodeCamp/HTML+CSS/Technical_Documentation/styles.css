@@ -1,4 +1,6 @@
-*, ::before, ::after  {
+*,
+::before,
+::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -22,7 +24,7 @@ body {
     width: 320px;
     height: 100vh;
     background: linear-gradient(rgb(227, 166, 100),
-    rgb(92, 69, 45));
+            rgb(92, 69, 45));
     color: rgb(255 255 255);
     border-right: 2px solid rgb(92, 69, 45);
 }
@@ -53,7 +55,7 @@ h1 {
 }
 
 .nav-link:hover {
-    background-color:rgba(18, 18, 5, 0.186);
+    background-color: rgba(18, 18, 5, 0.186);
     opacity: 0.75;
 }
 
@@ -93,10 +95,10 @@ blockquote::after {
     background-color: rgb(237, 228, 217);
 }
 
-pre > code {
-   position: relative;
-   top: 10px;
-   left: -200px;
+pre>code {
+    position: relative;
+    top: 10px;
+    left: -200px;
 }
 
 .quoted::before {
@@ -123,6 +125,6 @@ pre > code {
     font-weight: bold;
 }
 
-.content_list > li {
+.content_list>li {
     list-style-position: inside;
 }
