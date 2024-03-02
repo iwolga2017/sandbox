@@ -163,7 +163,59 @@
         <section class="main-section" id="Class_Expression">
             <header>Class Expression</header>
             <article>
-                <p></p>
+                <p>
+                    Like functions, classes can be defined inside another expression, passed, returned, assigned, etc. Example Class Expression (similar to Function Expression):
+                </p>
+                <div class="code-wrapper">
+                    <pre>
+                        <code>
+                            1       let User = class {
+                            2          sayHi() {
+                            3            alert("Hi");
+                            4          }
+                            5        };
+                        </code>
+                    </pre>
+                </div>
+                <p>
+                    Similar to a Named Function Expression, a Class Expression can have a name. If a Class Expression has a name, then it is visible only inside the class:
+                </p>
+                <div class="code-wrapper">
+                    <pre>
+                        <code>
+                            1   // "Named Class Expression"
+                            2      let User = class MyClass {
+                            3       sayHi() {
+                            4         alert(MyClass); // we can see name MyClass 5      only inside the class
+                            6       }
+                            7     };
+                            8  
+                            9     new User().sayHi(); // prints the definition MyClass
+                            10  
+                            11    alert(MyClass); // error, name MyClass is not visible outside the class
+                        </code>
+                    </pre>
+                </div>
+                <p>We can even dynamically create classes on demand:</p>
+                <div class="code-wrapper">
+                    <pre>
+                        <code>
+                            1       function makeClass(phrase) {
+                            2           // declare class and return it
+                            3       return class {
+                            4         sayHi() {
+                            5           alert(phrase);
+                            6         };
+                            7       };
+                            8     }
+                            9 
+                            10    // Create a new class
+                            11    let User = makeClass("Hi");
+                            12  
+                            13   new User().sayHi(); // Hi
+                        </code>
+                    </pre>
+                </div>
             </article>
         </section>
 
