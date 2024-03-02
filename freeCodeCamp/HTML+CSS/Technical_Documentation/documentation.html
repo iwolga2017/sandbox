@@ -127,7 +127,35 @@
         <section class="main-section" id="More_than_just_syntactic_sugar">
             <header>More than just syntactic sugar</header>
             <article>
-                <p></p>
+                <p>
+                    It's sometimes said that class it's just "syntactic sugar" in JavaScript (syntax to improve code readability, but doesn't do anything fundamentally new), because we can do the same thing without the class:
+                </p>
+                <div class="code-wrapper">
+                    <pre>
+                        <code>
+                        1       // rewrite class User with pure functions
+                        2
+                        3       // 1. Create function constructor
+                        4       function User(name) {
+                        5         this.name = name;
+                        6        }
+                        7       // each function prototype has default property constructor,
+                        8       // that's why we don't need to create it
+                        9
+                        10      // 2. add method to prototype
+                        11      User.prototype.sayHi = function() {
+                        12          alert(this.name);
+                        13      };
+                        14
+                        15      // Usage:
+                        16      let user = new User("Ivan");
+                        17      user.sayHi();
+                        </code>
+                    </pre>
+                </div>
+                <p>
+                    The output of this code is very similar. So there are indeed reasons why class it might be considered syntactic sugar to define a constructor along with prototype methods.
+                </p>
             </article>
         </section>
 
