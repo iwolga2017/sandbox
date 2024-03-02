@@ -350,7 +350,31 @@
         <section class="main-section" id="Total">
             <header>Total</header>
             <article>
-                <p></p>
+                <p>The basic syntax for classes looks like this:</p>
+                <div class="code-wrapper">
+                    <pre>
+                        <code>
+                            1       class MyClass {
+                            2           prop = value; // property
+                            3           constructor(...) { // constructor
+                            4             // ...
+                            5           }
+                            6           method(...) {} // method
+                            7           get something(...) {} // getter
+                            8           set something(...) {} // setter
+                            9           [Symbol.iterator]() {} //method with a calculated 
+                            10          name (here a symbol)
+                            11          // ...
+                            12       }
+                        </code>
+                    </pre>
+                </div>
+                <p>
+                    MyClassis technically a function (the one we define as constructor), while methods, getters, and setters are written in MyClass.prototype.
+                </p>
+                <p>
+                    In the following chapters, we will learn more about classes, including inheritance and other features.
+                </p>
             </article>
         </section>
 
