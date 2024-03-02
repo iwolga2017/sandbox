@@ -98,3 +98,27 @@ pre > code {
    top: 10px;
    left: -200px;
 }
+
+.quoted::before {
+    content: open-quote;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.quoted::after {
+    content: close-quote;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav_quoted::before {
+    content: open-quote;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.nav_quoted::after {
+    content: close-quote;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
