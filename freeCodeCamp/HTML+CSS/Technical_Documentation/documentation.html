@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Technical Documentation Page</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
     <!-- Navigation -->
     <nav id="navbar">
@@ -29,7 +31,8 @@
                 <a href="#Class_Expression" class="nav-link">Class Expression</a>
             </li>
             <li class="nav-list__item">
-                <a href="#Getters/setters,_other_abbreviations" class="nav-link">Getters/setters, other abbreviations</a>
+                <a href="#Getters/setters,_other_abbreviations" class="nav-link">Getters/setters, other
+                    abbreviations</a>
             </li>
             <li class="nav-list__item">
                 <a href="#Class_Properties" class="nav-link">Class Properties</a>
@@ -42,12 +45,16 @@
 
     <main id="main-doc">
         <p>
-            <blockquote>
-                In object-oriented programming, a class is an extensible code pattern for creating objects that sets them to initial values ​​(properties) and implementations of behavior (methods).
-            </blockquote>
+        <blockquote>
+            In object-oriented programming, a class is an extensible code pattern for creating objects that sets them to
+            initial values ​​(properties) and implementations of behavior (methods).
+        </blockquote>
         </p>
         <p>
-            In practice, we often need to create many objects of the same type, for example users, products or something else. As we already know from the Constructor chapter, the "new" operator can help with this new function. But modern JavaScript also has a more advanced "class" construct that provides new features useful for object-oriented programming.
+            In practice, we often need to create many objects of the same type, for example users, products or something
+            else. As we already know from the Constructor chapter, the "new" operator can help with this new function.
+            But modern JavaScript also has a more advanced "class" construct that provides new features useful for
+            object-oriented programming.
         </p>
 
         <!-- Syntax-class section -->
@@ -70,7 +77,8 @@
                     </pre>
                 </div>
                 <p>Then use the call new MyClass()to create a new object with all the methods listed.
-                    In this case, the method is automatically called constructor(), in which we can initialize the object.
+                    In this case, the method is automatically called constructor(), in which we can initialize the
+                    object.
                     For example:
                 </p>
                 <p>When called new User("Ivan"):</p>
@@ -80,9 +88,11 @@
                     <li>You can then call methods on the object, such as user.sayHi().</li>
                 </ol>
                 <h3>Methods in a class are not separated by comma</h3>
-                <p>A common mistake novice developers make is to put a comma between class methods, which leads to a syntax error.
+                <p>A common mistake novice developers make is to put a comma between class methods, which leads to a
+                    syntax error.
                 </p>
-                <p>Class syntax is different from object literals, do not confuse them. Commas are not required within classes.
+                <p>Class syntax is different from object literals, do not confuse them. Commas are not required within
+                    classes.
                 </p>
             </article>
         </section>
@@ -92,8 +102,10 @@
             <header>What is a class?</header>
             <article>
                 <p>
-                    So, what is it class? This is not a completely new linguistic entity, as it might seem at first glance.
-                    Let's take all the magic away and see what a class really is. This will help in understanding many complex aspects.
+                    So, what is it class? This is not a completely new linguistic entity, as it might seem at first
+                    glance.
+                    Let's take all the magic away and see what a class really is. This will help in understanding many
+                    complex aspects.
                     In JavaScript, a class is a type of function.
                 </p>
                 <p>Take a look:</p>
@@ -113,7 +125,8 @@
                 <p>Here's what the construct actually does class User {...}:</p>
                 <ol class="content_list">
                     <li>
-                        Creates a function named User, which becomes the result of a class declaration. The function code is taken from the method constructor(it will be empty if there is no such method).
+                        Creates a function named User, which becomes the result of a class declaration. The function
+                        code is taken from the method constructor(it will be empty if there is no such method).
                     </li>
                     <li>
                         Stores all methods such as sayHi, in User.prototype.
@@ -128,7 +141,9 @@
             <header>More than just syntactic sugar</header>
             <article>
                 <p>
-                    It's sometimes said that class it's just "syntactic sugar" in JavaScript (syntax to improve code readability, but doesn't do anything fundamentally new), because we can do the same thing without the class:
+                    It's sometimes said that class it's just "syntactic sugar" in JavaScript (syntax to improve code
+                    readability, but doesn't do anything fundamentally new), because we can do the same thing without
+                    the class:
                 </p>
                 <div class="code-wrapper">
                     <pre>
@@ -154,7 +169,8 @@
                     </pre>
                 </div>
                 <p>
-                    The output of this code is very similar. So there are indeed reasons why class it might be considered syntactic sugar to define a constructor along with prototype methods.
+                    The output of this code is very similar. So there are indeed reasons why class it might be
+                    considered syntactic sugar to define a constructor along with prototype methods.
                 </p>
             </article>
         </section>
@@ -164,7 +180,8 @@
             <header>Class Expression</header>
             <article>
                 <p>
-                    Like functions, classes can be defined inside another expression, passed, returned, assigned, etc. Example Class Expression (similar to Function Expression):
+                    Like functions, classes can be defined inside another expression, passed, returned, assigned, etc.
+                    Example Class Expression (similar to Function Expression):
                 </p>
                 <div class="code-wrapper">
                     <pre>
@@ -178,7 +195,8 @@
                     </pre>
                 </div>
                 <p>
-                    Similar to a Named Function Expression, a Class Expression can have a name. If a Class Expression has a name, then it is visible only inside the class:
+                    Similar to a Named Function Expression, a Class Expression can have a name. If a Class Expression
+                    has a name, then it is visible only inside the class:
                 </p>
                 <div class="code-wrapper">
                     <pre>
@@ -223,7 +241,76 @@
         <section class="main-section" id="Getters/setters,_other_abbreviations">
             <header>Getters/setters, other abbreviations</header>
             <article>
-                <p></p>
+                <p>
+                    Like literal objects, classes can declare computed properties, getters/setters, etc. Here is an
+                    example user.name implemented using get/set:
+                </p>
+                <div class="code-wrapper">
+                    <pre>
+                        <code>
+                            1       class User {
+                            2
+                            3       constructor(name) {
+                            4         // calls the setter
+                            5        this.name = name;
+                            6        }
+                            7  
+                            8       get name() {
+                            9         return this._name;
+                            10      }
+                            11  
+                            12      set name(value) {
+                            13        if (value.length < 4) {
+                            14         alert("Name is too short.");
+                            15          return;
+                            16        }
+                            17        this._name = value;
+                            18      }
+                            19 
+                            20    }
+                            21 
+                            22    let user = new User("Ivan");
+                            23    alert(user.name); // Ivan
+                            24 
+                            25    user = new User(""); // Name is too short.
+                        </code>
+                    </pre>
+                </div>
+                <p>
+                    When declaring a class, getters/setters are created on User.prototype, like this:
+                </p>
+                <div class="code-wrapper">
+                    <pre>
+                        <code>
+                            1       Object.defineProperties(User.prototype, {
+                            2           name: {
+                            3             get() {
+                            4               return this._name
+                            5              },
+                            6             set(name) {
+                            7               // ...
+                            8             }
+                            9           }
+                            10        });
+                        </code>
+                    </pre>
+                </div>
+                <p>Example with a calculated property in parentheses [...]:</p>
+                <div class="code-wrapper">
+                    <pre>
+                        <code>
+                            1       class User {
+                            2
+                            3           ['say' + 'Hi']() {
+                            4             alert("Hi");
+                            5           }
+                            6  
+                            7         }
+                            8  
+                            9         new User().sayHi();
+                        </code>
+                    </pre>
+                </div>
             </article>
         </section>
 
@@ -234,15 +321,16 @@
                 <p></p>
             </article>
         </section>
-        
+
         <!--Total section -->
         <section class="main-section" id="Total">
             <header>Total</header>
             <article>
                 <p></p>
             </article>
-        </section>  
+        </section>
 
     </main>
 </body>
+
 </html>
