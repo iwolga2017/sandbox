@@ -64,7 +64,7 @@ h1 {
 }
 
 #main-doc {
-    max-width: 700px;
+    width: 900px;
     position: absolute;
     top: 0;
     left: 500px;
