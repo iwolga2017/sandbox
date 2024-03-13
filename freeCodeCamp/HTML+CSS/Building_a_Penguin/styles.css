@@ -17,10 +17,21 @@ body {
     rgb(182, 255, 255));
     position: absolute;
     z-index: 3;
+    margin-top: -58px;
 }
 
 .penguin {
     width: 300px;
     height: 300px;
     margin: 75px auto 0;
+}
+
+.left-mountain {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(rgb(203, 241, 228),  rgb(80, 183, 255));
+    position: absolute;
+    z-index: 2;
+    transform: skew(0deg, 44deg);
+    margin-top: 100px;
 }
