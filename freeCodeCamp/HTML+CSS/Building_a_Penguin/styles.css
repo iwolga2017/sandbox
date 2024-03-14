@@ -48,6 +48,8 @@ body {
 }
 
 .penguin-body {
+    top: 40%;
+    left: 23.5%;
     width: 53%;
     height: 45%;
     background: linear-gradient(45deg,
