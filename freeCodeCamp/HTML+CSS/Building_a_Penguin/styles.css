@@ -56,6 +56,10 @@ body {
     border-radius: 70% 70% 60% 60%;
 }
 
+.face.left {
+    left: 5%
+}
+
 .penguin-body {
     top: 40%;
     left: 23.5%;
