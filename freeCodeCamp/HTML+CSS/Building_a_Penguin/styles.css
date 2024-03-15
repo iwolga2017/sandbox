@@ -1,3 +1,7 @@
+:root {
+    --penguin-face: white;
+}
+
 body {
     margin: 0;
     padding: 0;
