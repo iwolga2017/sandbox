@@ -60,6 +60,10 @@ body {
     left: 5%
 }
 
+.face.right {
+    right: 5%
+}
+
 .penguin-body {
     top: 40%;
     left: 23.5%;
