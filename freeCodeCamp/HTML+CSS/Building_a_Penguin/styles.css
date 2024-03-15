@@ -48,6 +48,14 @@ body {
      border-bottom-right-radius: 65%;
 }
 
+.face {
+    width: 60%;
+    height: 70%;
+    top: 15%;
+    background-color: white;
+    border-radius: 70% 70% 60% 60%;
+}
+
 .penguin-body {
     top: 40%;
     left: 23.5%;
