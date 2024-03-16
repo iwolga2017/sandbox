@@ -102,6 +102,14 @@ body {
     border-radius: 50%;
 }
 
+.blush {
+    width: 15%;
+    height: 10%;
+    background-color: pink;
+    top: 65%;
+    border-radius: 50%;
+  }
+
 .penguin-body {
     top: 40%;
     left: 23.5%;
