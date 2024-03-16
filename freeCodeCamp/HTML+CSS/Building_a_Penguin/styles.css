@@ -33,7 +33,7 @@ body {
 }
 
 
-.penguin *  {
+.penguin * {
     position: absolute;
 }
 
@@ -44,12 +44,12 @@ body {
     width: 50%;
     height: 45%;
     background: linear-gradient(45deg,
-     gray,
-     rgb(239, 240, 228));
-     border-top-right-radius: 70%;
-     border-top-left-radius: 70%;
-     border-bottom-left-radius: 65%;
-     border-bottom-right-radius: 65%;
+            gray,
+            rgb(239, 240, 228));
+    border-top-right-radius: 70%;
+    border-top-left-radius: 70%;
+    border-bottom-left-radius: 65%;
+    border-bottom-right-radius: 65%;
 }
 
 .face {
@@ -108,15 +108,21 @@ body {
     background-color: pink;
     top: 65%;
     border-radius: 50%;
-  }
+}
 
 .blush.left {
     left: 15%;
-  }
+}
 
 .blush.right {
     right: 15%;
-  }
+}
+
+.beak {
+    height: 10%;
+    background-color: orange;
+    border-radius: 50%;
+}
 
 .penguin-body {
     top: 40%;
@@ -124,17 +130,16 @@ body {
     width: 53%;
     height: 45%;
     background: linear-gradient(45deg,
-     rgb(134, 133, 133)0%, 
-     rgb(234, 231, 231)25%,
-     var(--penguin-face) 67%
-     );
-     border-top-right-radius: 80%;
-     border-top-left-radius: 80%;
-     border-bottom-left-radius: 100%;
-     border-bottom-right-radius: 100%;
+            rgb(134, 133, 133)0%,
+            rgb(234, 231, 231)25%,
+            var(--penguin-face) 67%);
+    border-top-right-radius: 80%;
+    border-top-left-radius: 80%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
 }
 
-.penguin-body::before  {
+.penguin-body::before {
     content: "";
     position: absolute;
     top: 10%;
