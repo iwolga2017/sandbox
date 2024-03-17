@@ -13,16 +13,6 @@ body {
             rgb(247, 255, 222));
 }
 
-.ground {
-    width: 100vw;
-    height: 400px;
-    background: linear-gradient(90deg,
-            rgb(88, 175, 236),
-            rgb(182, 255, 255));
-    position: absolute;
-    z-index: 3;
-    margin-top: -58px;
-}
 
 .penguin {
     width: 300px;
@@ -177,6 +167,23 @@ body {
     background-color: gray;
     border-radius: 0% 0% 100% 100%;
     opacity: 70%;
+}
+
+.foot {
+    width: 15%;
+    height: 30%;
+    background-color: orange;
+}
+
+.ground {
+    width: 100vw;
+    height: 400px;
+    background: linear-gradient(90deg,
+            rgb(88, 175, 236),
+            rgb(182, 255, 255));
+    position: absolute;
+    z-index: 3;
+    margin-top: -58px;
 }
 
 .left-mountain {
