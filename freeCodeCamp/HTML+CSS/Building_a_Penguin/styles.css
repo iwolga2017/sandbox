@@ -136,6 +136,12 @@ body {
     left: 42%;
 }
 
+.shirt {
+    font-size: 25px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
 .penguin-body {
     top: 40%;
     left: 23.5%;
