@@ -142,6 +142,10 @@ body {
     font-weight: bold;
 }
 
+.shirt  div {
+    font-weight: initial;
+}
+
 .penguin-body {
     top: 40%;
     left: 23.5%;
