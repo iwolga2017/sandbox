@@ -29,6 +29,11 @@ body {
     position: absolute;
 }
 
+.penguin:active {
+    transform: scale(1.5);
+    cursor: not-allowed;
+}
+
 .penguin-head {
     top: 10%;
     left: 25%;
