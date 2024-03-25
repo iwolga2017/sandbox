@@ -10,16 +10,15 @@ function cleanInputString(str) {
 
     let regex = /[+-\s]/g;
     return str.replace(regex, "");
- }
+}
 
- function isInvalidInput(str) {
+function isInvalidInput(str) {
 
     const regex = /\d+e\d+/i;
     return str.match(regex);
- }
+}
 
- function addEntry() {
+function addEntry() {
 
-    const targetId = "#" + entryDropdown.value;
-    const targetInputContainer = document.querySelector(`${targetId} .input-container`);
- }
+    const targetInputContainer = document.querySelector(`#${entryDropdown.value} .input-container`);
+}
