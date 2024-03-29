@@ -30,7 +30,8 @@ function addEntry() {
 }
 
 function calculateCalories(e) {
-    
+    e.preventDefault();
+    isError = false;
 }
 
 function getCaloriesFromInputs(list) {
@@ -41,11 +42,11 @@ function getCaloriesFromInputs(list) {
         const invalidInputMatch = isInvalidInput(currVal);
 
         if (invalidInputMatch) {
-            alert(`Invalid Input: ${invalidInputMatch[0]}`); 
+            alert(`Invalid Input: ${invalidInputMatch[0]}`);
             isError = true;
             return null;
-         }
-         calories += Number(currVal);
+        }
+        calories += Number(currVal);
     }
     return calories;
 }
