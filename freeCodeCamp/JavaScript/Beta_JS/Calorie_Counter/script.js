@@ -36,6 +36,9 @@ function getCaloriesFromInputs(list) {
         const currVal = cleanInputString(item.value);
         const invalidInputMatch = isInvalidInput(currVal);
     }
+    if (invalidInputMatch) {
+        
+    }
 }
 
 addEntryButton.addEventListener('click', addEntry);
