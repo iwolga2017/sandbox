@@ -98,5 +98,6 @@ const songsHTML = array.map(songs => {
   `
 }).join("");
 playlistSongs.innerHTML = songsHTML
-}
+};
+renderSongs(userData?.songs)
 
