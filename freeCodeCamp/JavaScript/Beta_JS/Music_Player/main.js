@@ -134,6 +134,10 @@ const playPreviousSong = () => {
     
     songEl.removeAttribute("aria-current")
 })
+
+  if (songToHighlight) {
+    songToHighlight.setAttribute("aria-current", "true")
+  }
 }
 
 const renderSongs = (array) => {
