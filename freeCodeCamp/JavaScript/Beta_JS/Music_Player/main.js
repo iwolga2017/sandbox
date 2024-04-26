@@ -143,8 +143,10 @@ const shuffle = () => {
 
 const deleteSong = (id) => {
 
-  userData.songs = userData?.songs.filter(song => song.id !== id) 
-
+  userData.songs = userData?.songs.filter(song => song.id !== id)
+  renderSongs(userData?.songs)
+  highlightCurrentSong()
+  setPlayButtonAccessibleText()
 }
 
 const setPlayerDisplay = () => {
@@ -157,14 +159,14 @@ const setPlayerDisplay = () => {
   songArtist.textContent = currentArtist ? currentArtist : ""
 }
 
- const highlightCurrentSong = () => {
+const highlightCurrentSong = () => {
 
   const playlistSongElements = document.querySelectorAll('.playlist-song')
   const songToHighlight = document.getElementById(`song-${userData?.currentSong?.id}`)
-   playlistSongElements.forEach(songEl => {
-    
+  playlistSongElements.forEach(songEl => {
+
     songEl.removeAttribute("aria-current")
-})
+  })
 
   if (songToHighlight) {
     songToHighlight.setAttribute("aria-current", "true")
@@ -194,7 +196,7 @@ const setPlayButtonAccessibleText = () => {
 }
 
 const getCurrentSongIndex = () => {
-  
+
   return userData?.songs.indexOf(userData?.currentSong)
 }
 
