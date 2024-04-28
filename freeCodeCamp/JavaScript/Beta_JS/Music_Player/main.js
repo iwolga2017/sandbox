@@ -158,11 +158,14 @@ const deleteSong = (id) => {
     const resetButton = document.createElement('button')
     resetButton.id = 'reset'
     resetButton.ariaLabel = 'Reset playlist'
-    const resetText = document.createTextNode("Reset Playlist") 
+    const resetText = document.createTextNode("Reset Playlist")
     resetButton.append(resetText)
     playlistSongs.append(resetButton)
     resetButton.addEventListener('click', () => {
       userData.songs = [...allSongs];
+      renderSongs(sortSongs())
+      setPlayButtonAccessibleText()
+      resetButton.remove()
     })
   }
 }
