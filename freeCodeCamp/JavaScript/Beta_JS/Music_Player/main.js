@@ -161,6 +161,7 @@ const deleteSong = (id) => {
     const resetText = document.createTextNode("Reset Playlist") 
     resetButton.append(resetText)
     playlistSongs.append(resetButton)
+    resetButton.addEventListener('click', () => {})
   }
 }
 
