@@ -159,6 +159,8 @@ const deleteSong = (id) => {
     resetButton.id = 'reset'
     resetButton.ariaLabel = 'Reset playlist'
     const resetText = document.createTextNode("Reset Playlist") 
+    resetButton.append(resetText)
+    playlistSongs.append(resetButton)
   }
 }
 
