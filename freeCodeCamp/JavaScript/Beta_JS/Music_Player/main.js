@@ -156,6 +156,8 @@ const deleteSong = (id) => {
 
   if (userData?.songs.length === 0) {
     const resetButton = document.createElement('button')
+    resetButton.id = 'reset'
+    resetButton.ariaLabel = 'Reset playlist'
     const resetText = document.createTextNode("Reset Playlist") 
   }
 }
