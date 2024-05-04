@@ -7,6 +7,6 @@ console.log(rows[0]);
 
 let array = [1, 2, 3];
 array[1] = 25;
-array[2] = 10;
+array[2] = array[array.length - 1];
 console.log(array);
 
