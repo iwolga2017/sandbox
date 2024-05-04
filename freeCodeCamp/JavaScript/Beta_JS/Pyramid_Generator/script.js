@@ -3,10 +3,9 @@ let count = 8;
 console.log(count + 1);
 
 let rows = ["Naomi", "Quincy", "CamperChan"];
-console.log(rows[0]);
+rows.push("freeCodeCamp");
+console.log(rows);
 
-let array = [1, 2, 3];
-array[1] = 25;
-array[2] = array[array.length - 1];
-console.log(array);
+
+
 
