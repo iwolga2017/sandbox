@@ -1,13 +1,8 @@
-let character = 'Hello';
-let count = 8;
-console.log(count + 1);
+const character = 'Hello';
+const count = 8;
+const rows = [];
 
-let rows = ["Naomi", "Quincy", "CamperChan"];
-let pushed = rows.push("freeCodeCamp");
-console.log(pushed);
 
-rows = [];
-character = "Hello";
 
 
 
