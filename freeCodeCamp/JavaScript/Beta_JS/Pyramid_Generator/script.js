@@ -2,12 +2,9 @@ const character = "#";
 const count = 8;
 const rows = [];
 
-function padRow(name) {
-  return character + name
+function padRow(rowNumber, rowCount) {
+  
 }
-
-const call = padRow("Olga")
-console.log(call)
 
 for (let i = 0; i < count; i = i + 1) {
   rows.push(character.repeat(i + 1)); 
