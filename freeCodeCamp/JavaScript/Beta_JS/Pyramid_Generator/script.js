@@ -12,6 +12,10 @@ function padRow(rowNumber, rowCount) {
 }
  */
 
+ if (true) {
+  console.log("Condition is true")
+ }
+
   let result = "";
 
   for (const row of rows) {
