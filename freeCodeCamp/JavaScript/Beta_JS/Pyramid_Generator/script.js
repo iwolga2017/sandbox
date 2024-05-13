@@ -7,11 +7,11 @@ function padRow(rowNumber, rowCount) {
 }
 
 // change the code to a different kind of loop
-/*
+
 for (let i = 1; i <= count; i++) {
   rows.push(padRow(i, count)); 
 }
- */
+ 
 
 /*
 while(rows.length < count) {
@@ -24,12 +24,6 @@ for (let i = count; i > 0; i--) {
   rows.push(padRow(i, count));
 }
 */
-
-const numbers = [1, 2, 3];
-const shifted = numbers.shift()
-console.log(shifted)
-const unshifted = numbers.unshift(5)
-console.log(numbers)
 
   let result = "";
 
