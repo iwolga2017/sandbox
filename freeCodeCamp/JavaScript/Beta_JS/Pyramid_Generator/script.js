@@ -9,7 +9,7 @@ function padRow(rowNumber, rowCount) {
 // change the code to a different kind of loop
 
 for (let i = 1; i <= count; i++) {
-  rows.push(padRow(i, count)); 
+  rows.unshift(padRow(i, count)); 
 }
  
 
