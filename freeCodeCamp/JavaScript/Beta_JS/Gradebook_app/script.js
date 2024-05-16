@@ -25,10 +25,18 @@ function getRoundResults(userOption) {
         computerScore++;
         return `Computer wins! ${computerResult} beats ${userOption}`;
     } else {
-        return `It's a tie!`;
+        return `It's a tie! Both chose ${userOption}`;
     }
 }
 
 const playerScoreSpanElement = document.getElementById("player-score");
 const computerScoreSpanElement = document.getElementById("computer-score");
 const roundResultsMsg = document.getElementById("results-msg");
+
+function showResults(userOption) {
+    roundResultsMsg.innerText = getRoundResults(userOption);
+    playerScoreSpanElement.innerText = playerScore;
+    computerScoreSpanElement.innerText = computerScore;
+};
+
+showResults("Rock");
