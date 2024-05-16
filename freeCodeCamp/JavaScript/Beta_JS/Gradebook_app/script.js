@@ -17,14 +17,18 @@ function hasPlayerWonTheRound(player, computer) {
 
 function getRoundResults(userOption) {
     const computerResult = getRandomComputerResult();
-  
-   if (hasPlayerWonTheRound) {
-     playerScore++;
-     return `Player wins! ${userOption} beats ${computerResult}`;
-   } else if (!hasPlayerWonTheRound) {
-     computerScore++;
-     return `Computer wins! ${computerResult} beats ${userOption}`;
-   } else {
-     return `It's a tie!`;
-   } 
-  }
+
+    if (hasPlayerWonTheRound) {
+        playerScore++;
+        return `Player wins! ${userOption} beats ${computerResult}`;
+    } else if (!hasPlayerWonTheRound) {
+        computerScore++;
+        return `Computer wins! ${computerResult} beats ${userOption}`;
+    } else {
+        return `It's a tie!`;
+    }
+}
+
+const playerScoreSpanElement = document.getElementById("player-score");
+const computerScoreSpanElement = document.getElementById("computer-score");
+const roundResultsMsg = document.getElementById("results-msg");
