@@ -13,5 +13,18 @@ function hasPlayerWonTheRound(player, computer) {
         (player === "Scissors" && computer === "Paper") ||
         (player === "Paper" && computer === "Rock")
     );
-
 }
+
+function getRoundResults(userOption) {
+    const computerResult = getRandomComputerResult();
+  
+   if (hasPlayerWonTheRound) {
+     playerScore++;
+     return `Player wins! ${userOption} beats ${computerResult}`;
+   } else if (!hasPlayerWonTheRound) {
+     computerScore++;
+     return `Computer wins! ${computerResult} beats ${userOption}`;
+   } else {
+     return `It's a tie!`;
+   } 
+  }
