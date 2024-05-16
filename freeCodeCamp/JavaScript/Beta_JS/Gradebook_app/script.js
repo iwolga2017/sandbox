@@ -3,7 +3,9 @@ function getRandomComputerResult() {
     let index = Math.floor(Math.random() * options.length);
     return options[index];
 }
-console.log(getRandomComputerResult());
+
+let playerScore = 0;
+let computerScore = 0;
 
 function hasPlayerWonTheRound(player, computer) {
     return ( // if the cond true return true or false
