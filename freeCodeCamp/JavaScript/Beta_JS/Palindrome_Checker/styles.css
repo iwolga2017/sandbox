@@ -1,4 +1,65 @@
 body {
-    width: 200px;
     background-color: aquamarine;
-}
+  }
+  
+  h1 {
+    font-size: 40px;
+    text-align: center;
+    margin: 75px auto 50px;
+  }
+  .container {
+    background-color: white;
+    width: 400px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 0 auto;
+    box-shadow: 10px 10px 10px rgba(192, 192, 192, 0.5);
+  }
+  .container p {
+    font-size: 22px;
+    padding: 20px 0 0;
+    text-align: center;
+  }
+  .description {
+    color: green;
+  }
+  .description p {
+    font-size: 24px;
+    font-weight: bold; 
+  }
+  .inner-container {
+    display: flex;
+    justify-content: center;
+  }
+  input {
+    margin-right: 10px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid green;
+  }
+  button {
+    width: 60px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    border: none;
+  }
+  .lamp-icon {
+    font-size: 20px;
+    color: #ffcc00;
+    animation: blink 1s infinite;
+  }
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
