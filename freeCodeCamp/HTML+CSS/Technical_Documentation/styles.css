@@ -141,7 +141,7 @@ pre>code {
         max-height: 400px;
         z-index: 1;
         background: linear-gradient(rgb(227, 166, 100), 
-        rgb(199, 166, 130))
+        rgb(199, 166, 130));
         border-bottom: 3px solid rgb(26, 16, 5);
     }
 
