@@ -24,5 +24,5 @@ const darkColorsArr = [
     bgHexCodeSpanElement.innerText = color;
     body.style.backgroundColor = color;
 }
-
+const btn = document.querySelector("#btn");
 
