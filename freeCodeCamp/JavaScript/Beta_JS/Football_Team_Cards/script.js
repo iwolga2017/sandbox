@@ -177,4 +177,4 @@ Object.freeze(myFavoriteFootballTeam);
 // const sport = myFavoriteFootballTeam.sport;
 // const team = myFavoriteFootballTeam.team;
 
-const {sport, team} = myFavoriteFootballTeam;
+const {sport, team, year, players} = myFavoriteFootballTeam;
